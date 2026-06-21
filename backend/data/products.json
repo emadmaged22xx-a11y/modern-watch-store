@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "Rolex Submariner",
-    "price": 45000,
+    "price": 4500000,
     "category": "ساعات فاخرة",
-    "description": "ساعة غوص فاخرة من Rolex بتصميم كلاسيكي ومتانة استثنائية. مقاومة للماء حتى 300 متر، مثالية لعشاق المغامرة والأناقة.",
+    "description": "ساعة غوص فاخرة من Rolex بتصميم كلاسيكي ومتانة استثنائية. مقاومة للماء حتى 300 متر، مثالية لعشاق المغامرة والأناقة في سوريا.",
     "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=800",
     "country": "سويسرا",
     "inStock": true
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Rolex Explorer",
-    "price": 38000,
+    "price": 3800000,
     "category": "ساعات فاخرة",
     "description": "ساعة مستكشفين من Rolex بتصميم بسيط وأنيق. مخصصة لعشاق التسلق والمغامرات في البيئات القاسية.",
     "image": "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -21,8 +21,68 @@
   },
   {
     "id": 3,
+    "name": "Rolex Datejust",
+    "price": 5200000,
+    "category": "ساعات فاخرة",
+    "description": "ساعة فاخرة أيقونية من Rolex بتاريخ عرض. تصميم كلاسيكي أنيق يناسب المناسبات الرسمية واليومية.",
+    "image": "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "سويسرا",
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Rolex Daytona",
+    "price": 6200000,
+    "category": "ساعات فاخرة",
+    "description": "ساعة كرونوغراف أسطورية من Rolex. مصممة لسباق السيارات بتصميم رياضي فاخر وحركة دقيقة للغاية.",
+    "image": "https://images.pexels.com/photos/2783874/pexels-photo-2783874.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "سويسرا",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Rolex GMT Master II",
+    "price": 5800000,
+    "category": "ساعات فاخرة",
+    "description": "ساعة فاخرة تدعم منطقتين زمنيتين. مثالية للمسافرين والرحالة مع حافة دوارة مميزة.",
+    "image": "https://images.pexels.com/photos/1587418/pexels-photo-1587418.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "سويسرا",
+    "inStock": false
+  },
+  {
+    "id": 6,
+    "name": "Omega Speedmaster",
+    "price": 5200000,
+    "category": "ساعات فاخرة",
+    "description": "ساعة فاخرة تاريخية من Omega، الساعة الوحيدة التي هبطت على سطح القمر. تصميم أسطوري بحركة يدوية.",
+    "image": "https://images.pexels.com/photos/162601/pexels-photo-162601.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "سويسرا",
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Omega Seamaster",
+    "price": 4800000,
+    "category": "ساعات فاخرة",
+    "description": "ساعة غوص فاخرة من Omega بتصميم رياضي أنيق. مقاومة للماء حتى 300 متر، مثالية للسباحين.",
+    "image": "https://images.pexels.com/photos/1334605/pexels-photo-1334605.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "سويسرا",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Omega Constellation",
+    "price": 4200000,
+    "category": "ساعات فاخرة",
+    "description": "ساعة فاخرة أنيقة من Omega بتصميم نجمي مميز. مثالية للمناسبات الرسمية والأناقة اليومية.",
+    "image": "https://images.pexels.com/photos/4041241/pexels-photo-4041241.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "سويسرا",
+    "inStock": true
+  },
+  {
+    "id": 9,
     "name": "Casio G-Shock",
-    "price": 850,
+    "price": 850000,
     "category": "ساعات رياضية",
     "description": "ساعة رياضية متينة للغاية من Casio. مقاومة للصدمات والماء، مزودة بمؤقت ومنبه وإضاءة خلفية.",
     "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -30,9 +90,9 @@
     "inStock": true
   },
   {
-    "id": 4,
+    "id": 10,
     "name": "Casio Edifice",
-    "price": 1200,
+    "price": 1200000,
     "category": "ساعات رياضية",
     "description": "ساعة رياضية أنيقة من Casio Edifice بتصميم عصري. مزودة بكرونوغراف وتاريخ وإطار معدني أنيق.",
     "image": "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -40,9 +100,39 @@
     "inStock": true
   },
   {
-    "id": 5,
+    "id": 11,
+    "name": "Casio Duro",
+    "price": 980000,
+    "category": "ساعات رياضية",
+    "description": "ساعة غوص رياضية اقتصادية من Casio. مقاومة للماء 200 متر، ميناء أسود كلاسيكي بإطار فولاذي.",
+    "image": "https://images.pexels.com/photos/298852/pexels-photo-298852.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "اليابان",
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "Casio Pro Trek",
+    "price": 1500000,
+    "category": "ساعات رياضية",
+    "description": "ساعة رياضية متقدمة من Casio للمغامرين. مزودة ببوصلة، مقياس ضغط، وطاقة شمسية.",
+    "image": "https://images.pexels.com/photos/1102609/pexels-photo-1102609.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "اليابان",
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "name": "Casio Vintage",
+    "price": 450000,
+    "category": "ساعات رجالية",
+    "description": "ساعة رجالية ريترو كلاسيكية من Casio. تصميم أنيق بألوان عصرية يعيد ذكريات الثمانينات.",
+    "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "اليابان",
+    "inStock": true
+  },
+  {
+    "id": 14,
     "name": "Tissot PRX",
-    "price": 3200,
+    "price": 3200000,
     "category": "ساعات كلاسيكية",
     "description": "ساعة كلاسيكية أنيقة من Tissot بتصميم ريترو عصري. سوار معدني متكامل وميناء أنيق بألوان جذابة.",
     "image": "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -50,9 +140,9 @@
     "inStock": true
   },
   {
-    "id": 6,
+    "id": 15,
     "name": "Tissot Seastar",
-    "price": 4200,
+    "price": 4200000,
     "category": "ساعات رياضية",
     "description": "ساعة غوص رياضية من Tissot بمقاومة ماء حتى 300 متر. تصميم رياضي أنيق مع حركة سويسرية دقيقة.",
     "image": "https://images.pexels.com/photos/2783874/pexels-photo-2783874.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -60,9 +150,29 @@
     "inStock": false
   },
   {
-    "id": 7,
+    "id": 16,
+    "name": "Tissot Gentleman",
+    "price": 3800000,
+    "category": "ساعات رجالية",
+    "description": "ساعة رجالية أنيقة من Tissot بتصميم كلاسيكي متعدد الاستخدامات. تتناسب مع البدلة الرسمية والملابس الكاجوال.",
+    "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "سويسرا",
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "name": "Tissot Le Locle",
+    "price": 3500000,
+    "category": "ساعات كلاسيكية",
+    "description": "ساعة كلاسيكية أوتوماتيكية من Tissot. سميت على اسم بلدة صناعة الساعات في سويسرا، تصميم أنيق بعرض تاريخ.",
+    "image": "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "سويسرا",
+    "inStock": true
+  },
+  {
+    "id": 18,
     "name": "Seiko 5",
-    "price": 950,
+    "price": 950000,
     "category": "ساعات كلاسيكية",
     "description": "ساعة كلاسيكية أوتوماتيكية من Seiko بتصميم تقليدي. حركة ميكانيكية موثوقة بسعر ممتاز.",
     "image": "https://images.pexels.com/photos/1334605/pexels-photo-1334605.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -70,9 +180,9 @@
     "inStock": true
   },
   {
-    "id": 8,
+    "id": 19,
     "name": "Seiko Prospex",
-    "price": 2800,
+    "price": 2800000,
     "category": "ساعات رياضية",
     "description": "ساعة رياضية احترافية من Seiko Prospex. مخصصة للغوص والرياضات المائية مع مقاومة ماء عالية.",
     "image": "https://images.pexels.com/photos/4041241/pexels-photo-4041241.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -80,9 +190,29 @@
     "inStock": true
   },
   {
-    "id": 9,
+    "id": 20,
+    "name": "Seiko Presage",
+    "price": 2200000,
+    "category": "ساعات رجالية",
+    "description": "ساعة رجالية أنيقة من Seiko Presage بميناء أخضر زجاجي. حركة أوتوماتيكية يابانية دقيقة بتصميم عصري.",
+    "image": "https://images.pexels.com/photos/1587418/pexels-photo-1587418.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "اليابان",
+    "inStock": true
+  },
+  {
+    "id": 21,
+    "name": "Seiko Astron",
+    "price": 4800000,
+    "category": "ساعات ذكية",
+    "description": "ساعة ذكية متقدمة من Seiko بتقنية GPS. تحدد الوقت تلقائياً حسب الموقع الجغرافي في أي مكان في العالم.",
+    "image": "https://images.pexels.com/photos/162601/pexels-photo-162601.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "اليابان",
+    "inStock": true
+  },
+  {
+    "id": 22,
     "name": "Citizen Eco Drive",
-    "price": 1800,
+    "price": 1800000,
     "category": "ساعات كلاسيكية",
     "description": "ساعة كلاسيكية من Citizen تعمل بالطاقة الشمسية. لا تحتاج لتغيير البطارية أبداً، تصميم أنيق يناسب كل المناسبات.",
     "image": "https://images.pexels.com/photos/162601/pexels-photo-162601.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -90,19 +220,79 @@
     "inStock": true
   },
   {
-    "id": 10,
-    "name": "Omega Speedmaster",
-    "price": 52000,
-    "category": "ساعات فاخرة",
-    "description": "ساعة فاخرة تاريخية من Omega، الساعة الوحيدة التي هبطت على سطح القمر. تصميم أسطوري بحركة يدوية.",
-    "image": "https://images.pexels.com/photos/1587418/pexels-photo-1587418.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "country": "سويسرا",
+    "id": 23,
+    "name": "Citizen Promaster",
+    "price": 2400000,
+    "category": "ساعات رياضية",
+    "description": "ساعة رياضية احترافية من Citizen للغوص والمغامرات. مقاومة للماء 200 متر مع تقنية Eco Drive الشمسية.",
+    "image": "https://images.pexels.com/photos/298852/pexels-photo-298852.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "اليابان",
     "inStock": true
   },
   {
-    "id": 11,
+    "id": 24,
+    "name": "Citizen Tsuyosa",
+    "price": 2100000,
+    "category": "ساعات رجالية",
+    "description": "ساعة رجالية أنيقة من Citizen بتصميم رياضي. ميناء ملون جذاب مع تقنية Eco Drive وسوار معدني مدمج.",
+    "image": "https://images.pexels.com/photos/1102609/pexels-photo-1102609.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "اليابان",
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "name": "Huawei Watch GT",
+    "price": 1500000,
+    "category": "ساعات ذكية",
+    "description": "ساعة ذكية من Huawei بتصميم رياضي أنيق. بطارية تدوم لأسبوعين، تتبع النشاط، وتنبيهات ذكية.",
+    "image": "https://images.pexels.com/photos/1102609/pexels-photo-1102609.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "الصين",
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "name": "Huawei Watch GT 5",
+    "price": 2200000,
+    "category": "ساعات ذكية",
+    "description": "ساعة ذكية جديدة من Huawei بميزات متقدمة. تتبع الصحة، ضغط الدم، وتصميم عصري أنيق.",
+    "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "الصين",
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "name": "Huawei Watch Fit",
+    "price": 1200000,
+    "category": "ساعات ذكية",
+    "description": "ساعة ذكية رياضية خفيفة من Huawei. شاشة مربعة أنيقة، تتبع اللياقة، ووضع أكثر من 100 رياضة.",
+    "image": "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "الصين",
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "name": "Apple Watch Series 10",
+    "price": 3800000,
+    "category": "ساعات ذكية",
+    "description": "أحدث ساعة ذكية من Apple بشاشة أكبر وأنحف. تتبع الصحة، نبضات القلب، وتكامل كامل مع iPhone.",
+    "image": "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "الولايات المتحدة",
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "name": "Samsung Galaxy Watch Ultra",
+    "price": 4200000,
+    "category": "ساعات ذكية",
+    "description": "ساعة ذكية متينة من Samsung للمغامرين. مقاومة للماء والصدمات، GPS، وتتبع متقدم للرياضة.",
+    "image": "https://images.pexels.com/photos/2783874/pexels-photo-2783874.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "كوريا الجنوبية",
+    "inStock": true
+  },
+  {
+    "id": 30,
     "name": "Fossil Gen 6",
-    "price": 2200,
+    "price": 2200000,
     "category": "ساعات ذكية",
     "description": "ساعة ذكية أنيقة من Fossil بنظام Wear OS. تتبع النشاط البدني، قياس نبضات القلب، وتصميم عصري.",
     "image": "https://images.pexels.com/photos/298852/pexels-photo-298852.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -110,13 +300,13 @@
     "inStock": true
   },
   {
-    "id": 12,
-    "name": "Huawei Watch GT",
-    "price": 1500,
-    "category": "ساعات ذكية",
-    "description": "ساعة ذكية من Huawei بتصميم رياضي أنيق. بطارية تدوم لأسبوعين، تتبع النشاط، وتنبيهات ذكية.",
-    "image": "https://images.pexels.com/photos/1102609/pexels-photo-1102609.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "country": "الصين",
+    "id": 31,
+    "name": "Michael Kors Lexington",
+    "price": 1850000,
+    "category": "ساعات نسائية",
+    "description": "ساعة نسائية فاخرة من Michael Kors بتصميم عصري أنيق. سوار معدني ذهبي وميناء مزخرف يجمع بين الأناقة والفخامة.",
+    "image": "https://images.pexels.com/photos/1334605/pexels-photo-1334605.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "country": "الولايات المتحدة",
     "inStock": true
   }
 ]

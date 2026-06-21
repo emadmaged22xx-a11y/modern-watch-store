@@ -41,17 +41,17 @@ export default function Contact() {
             <div className="bg-gray-50 rounded-xl p-6 text-center">
               <Phone className="w-8 h-8 text-primary-600 mx-auto mb-3" />
               <h3 className="font-bold text-gray-900 mb-1">اتصل بنا</h3>
-              <p className="text-gray-600 text-sm">+966 50 123 4567</p>
+              <p className="text-gray-600 text-sm">+963 933 123 456</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-6 text-center">
               <Mail className="w-8 h-8 text-primary-600 mx-auto mb-3" />
               <h3 className="font-bold text-gray-900 mb-1">البريد الإلكتروني</h3>
-              <p className="text-gray-600 text-sm">info@modernwatchstore.com</p>
+              <p className="text-gray-600 text-sm">info@modernwatchsyria.com</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-6 text-center">
               <MapPin className="w-8 h-8 text-primary-600 mx-auto mb-3" />
               <h3 className="font-bold text-gray-900 mb-1">العنوان</h3>
-              <p className="text-gray-600 text-sm">الرياض، المملكة العربية السعودية</p>
+              <p className="text-gray-600 text-sm">دمشق، سوريا</p>
             </div>
           </div>
 

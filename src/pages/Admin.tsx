@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Package, MessageSquare, Trash2, AlertCircle } from 'lucide-react';
+import { Package, MessageSquare, Trash2, AlertCircle, Tag } from 'lucide-react';
 import { getProducts, getMessages, deleteProduct, Product, Message } from '../services/api';
 
 export default function Admin() {
@@ -60,7 +60,7 @@ export default function Admin() {
         ) : (
           <>
             {/* Stats Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
               <div className="bg-white rounded-xl shadow-sm p-6 flex items-center gap-4 border border-gray-100">
                 <div className="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center">
                   <Package className="w-7 h-7 text-blue-600" />
@@ -68,6 +68,15 @@ export default function Admin() {
                 <div>
                   <p className="text-gray-500 text-sm">عدد المنتجات</p>
                   <p className="text-3xl font-bold text-gray-900">{products.length}</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-sm p-6 flex items-center gap-4 border border-gray-100">
+                <div className="w-14 h-14 rounded-full bg-amber-50 flex items-center justify-center">
+                  <Tag className="w-7 h-7 text-amber-600" />
+                </div>
+                <div>
+                  <p className="text-gray-500 text-sm">عدد التصنيفات</p>
+                  <p className="text-3xl font-bold text-gray-900">{new Set(products.map((p) => p.category)).size}</p>
                 </div>
               </div>
               <div className="bg-white rounded-xl shadow-sm p-6 flex items-center gap-4 border border-gray-100">
@@ -108,7 +117,7 @@ export default function Admin() {
                             {product.category}
                           </span>
                         </td>
-                        <td className="px-6 py-4 text-gray-700">{product.price.toLocaleString()} ر.س</td>
+                        <td className="px-6 py-4 text-gray-700">{product.price.toLocaleString()} ل.س</td>
                         <td className="px-6 py-4">
                           <span
                             className={`text-xs font-medium px-2 py-1 rounded ${
@@ -168,7 +177,7 @@ export default function Admin() {
                         <td className="px-6 py-4 text-gray-600">{msg.email}</td>
                         <td className="px-6 py-4 text-gray-700 max-w-xs truncate">{msg.message}</td>
                         <td className="px-6 py-4 text-gray-500 whitespace-nowrap">
-                          {new Date(msg.createdAt).toLocaleString('ar-SA')}
+                          {new Date(msg.createdAt).toLocaleString('ar-SY')}
                         </td>
                       </tr>
                     ))}

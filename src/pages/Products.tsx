@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 import { Search, ArrowLeft, Filter } from 'lucide-react';
 import { getProducts, Product } from '../services/api';
 
-const categories = ['الكل', 'ساعات رياضية', 'ساعات كلاسيكية', 'ساعات ذكية', 'ساعات فاخرة'];
+const categories = ['الكل', 'ساعات رياضية', 'ساعات كلاسيكية', 'ساعات ذكية', 'ساعات فاخرة', 'ساعات رجالية', 'ساعات نسائية'];
 
 export default function Products() {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('الكل');
+  const [sortBy, setSortBy] = useState('default');
   const [error, setError] = useState('');
 
   useEffect(() => {
@@ -22,18 +23,28 @@ export default function Products() {
   }, []);
 
   const filteredProducts = useMemo(() => {
-    return products.filter((p) => {
+    let result = products.filter((p) => {
       const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesCategory = selectedCategory === 'الكل' || p.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });
-  }, [products, searchQuery, selectedCategory]);
+    if (sortBy === 'price-asc') {
+      result = [...result].sort((a, b) => a.price - b.price);
+    } else if (sortBy === 'price-desc') {
+      result = [...result].sort((a, b) => b.price - a.price);
+    } else if (sortBy === 'name-asc') {
+      result = [...result].sort((a, b) => a.name.localeCompare(b.name));
+    } else if (sortBy === 'name-desc') {
+      result = [...result].sort((a, b) => b.name.localeCompare(a.name));
+    }
+    return result;
+  }, [products, searchQuery, selectedCategory, sortBy]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <h1 className="text-3xl font-bold text-gray-900 mb-6">تشكيلة الساعات</h1>
 
-      {/* Search and Filter */}
+      {/* Search, Filter, and Sort */}
       <div className="flex flex-col md:flex-row gap-4 mb-8">
         <div className="relative flex-1">
           <Search className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
@@ -57,6 +68,20 @@ export default function Products() {
                 {cat}
               </option>
             ))}
+          </select>
+        </div>
+        <div className="relative">
+          <Filter className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+          <select
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value)}
+            className="appearance-none w-full md:w-56 pr-10 pl-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 bg-white"
+          >
+            <option value="default">الترتيب الافتراضي</option>
+            <option value="price-asc">السعر: من الأقل للأعلى</option>
+            <option value="price-desc">السعر: من الأعلى للأقل</option>
+            <option value="name-asc">الاسم: أ-ي</option>
+            <option value="name-desc">الاسم: ي-أ</option>
           </select>
         </div>
       </div>
@@ -108,7 +133,7 @@ export default function Products() {
                 <p className="text-gray-500 text-sm mb-4 line-clamp-2">{product.description}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xl font-bold text-primary-700">
-                    {product.price.toLocaleString()} ر.س
+                    {product.price.toLocaleString()} ل.س
                   </span>
                   <Link
                     to={`/products/${product.id}`}

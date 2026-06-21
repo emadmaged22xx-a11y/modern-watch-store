@@ -101,7 +101,7 @@ export default function ProductDetails() {
             <div className="mt-auto pt-6 border-t border-gray-100">
               <div className="flex items-center justify-between flex-wrap gap-4">
                 <span className="text-3xl font-bold text-primary-700">
-                  {product.price.toLocaleString()} ر.س
+                  {product.price.toLocaleString()} ل.س
                 </span>
                 <Link
                   to="/products"

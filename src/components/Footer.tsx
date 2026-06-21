@@ -52,15 +52,15 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-400 text-sm">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary-400" />
-                <span>+966 50 123 4567</span>
+                <span>+963 933 123 456</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary-400" />
-                <span>info@modernwatchstore.com</span>
+                <span>info@modernwatchsyria.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary-400" />
-                <span>الرياض، المملكة العربية السعودية</span>
+                <span>دمشق، سوريا</span>
               </li>
             </ul>
           </div>
